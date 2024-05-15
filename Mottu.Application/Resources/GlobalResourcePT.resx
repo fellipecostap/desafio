@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Address.AdNumber.CannotEmpty" xml:space="preserve">
+    <value>O Número é obrigatório para o endereço.</value>
+  </data>
+	<data name="Address.City.CannotEmpty" xml:space="preserve">
+    <value>A Cidade é obrigatória para o endereço.</value>
+  </data>
+	<data name="Address.NeighborhoodName.CannotEmpty" xml:space="preserve">
+    <value>O Bairro é obrigatório para o endereço.</value>
+  </data>
+	<data name="Address.State.CannotEmpty" xml:space="preserve">
+    <value>O Estado é obrigatório para o endereço. </value>
+  </data>
+	<data name="Address.StreetName.CannotEmpty" xml:space="preserve">
+    <value>O Logradouro é obrigatório para o endereço.</value>
+  </data>
+	<data name="Address.ZipCode.CannotEmpty" xml:space="preserve">
+    <value>O CEP é obrigatório para o endereço.</value>
+  </data>
+	<data name="Company.Address.CannotEmpty" xml:space="preserve">
+    <value>O endereço da empresa não pode estar vazio.</value>
+  </data>
+	<data name="Company.CNPJ.MaximumLenght" xml:space="preserve">
+    <value>O CNPJ não pode ser maior que 18 caracteres.</value>
+  </data>
+	<data name="Company.Email.CannotEmpty" xml:space="preserve">
+    <value>O E-mail da empresa não pode estar vazio.</value>
+  </data>
+	<data name="Company.Email.MaximumLenght" xml:space="preserve">
+    <value>O E-mail da empresa não pode ser maior que 200 caracteres.</value>
+  </data>
+	<data name="Company.Name.CannotEmpty" xml:space="preserve">
+    <value>O nome fantasia da empresa não pode estar vazio.</value>
+  </data>
+	<data name="Company.SocialName.CannotEmpty" xml:space="preserve">
+    <value>A razão social da empresa não pode estar vazia.</value>
+  </data>
+	<data name="Company.Name.MaximumLenght" xml:space="preserve">
+    <value>O nome fantasia da empresa não pode ser maior que 200 caracteres.</value>
+  </data>
+	<data name="Company.Telephone.CannotEmpty" xml:space="preserve">
+    <value>O Telefone da empresa não pode estar vazio. </value>
+  </data>
+	<data name="ProfilePhoto.MaximumLenght" xml:space="preserve">
+    <value>A foto não pode exceder 10MB.</value>
+  </data>
+	<data name="Banner.Document.MaximumLenght" xml:space="preserve">
+    <value>O banner não pode exceder 10MB.</value>
+  </data>
+	<data name="MediaList_Invalid" xml:space="preserve">
+    <value>A media inserida foi inválida.</value>
+  </data>
+	<data name="Company.Delete.Error" xml:space="preserve">
+    <value>Houve um erro ao apagar a empresa. Tenta novamente mais tarde.</value>
+  </data>
+	<data name="Company.Announcement.Delete.Error" xml:space="preserve">
+    <value>Houve um erro ao apagar o anúncio. Tenta novamente mais tarde.</value>
+  </data>
+	<data name="Company_Announcement_Price_And_AcceptBudget_CannotEmpty" xml:space="preserve">
+    <value>Voce deve informar preço ou orçamento</value>
+  </data>
+	<data name="Company.Delete.HasServices" xml:space="preserve">
+    <value>Não foi possível remover ou alterar pois possui agendamentos de serviços futuros. Caso queira excluir a empresa, cancele os eventos futuros.</value>
+  </data>
+	<data name="Company_LimitTimeBeforeStartService" xml:space="preserve">
+    <value>Por favor, insira uma data e hora que atendam aos requisitos de antecedência estabelecidos pela empresa.</value>
+  </data>
+	<data name="Company_Duration_Or_FinalDate_CannotEmpty" xml:space="preserve">
+    <value>Informe a duração do serviço</value>
+  </data>
+	<data name="User.Company.IncompleteProfile" xml:space="preserve">
+    <value>Complete seu cadastro para receber solicitações de serviços.</value>
+  </data>
+	<data name="InvalidEmail" xml:space="preserve">
+    <value>E-mail em formato inválido.</value>
+  </data>
+	<data name="ExistingDatabaseRelationship" xml:space="preserve">
+    <value>Não é possivel deletar este item pois está relacionado com outros registros</value>
+  </data>
+	<data name="NotFoundException" xml:space="preserve">
+    <value>Registro não existe.</value>
+  </data>
+	<data name="ServiceType.Name.CannotEmpty" xml:space="preserve">
+    <value>O nome da tag de tipos de serviço é obrigatória.</value>
+  </data>
+	<data name="ServiceType.Name.Duplicity" xml:space="preserve">
+    <value>Nome da tag de tipo de serviço já existe.</value>
+  </data>
+	<data name="ServiceType.Name.MaximumLenght" xml:space="preserve">
+    <value>O nome da tag de tipo de serviço não pode ser maior do que 200 caracteres.</value>
+  </data>
+	<data name="PreRegistration.ConfirmToken.Invalid" xml:space="preserve">
+    <value>Código inválido, favor verificar o último e-mail enviado.</value>
+  </data>
+	<data name="PreRegistration.Email.CannotEmpty" xml:space="preserve">
+    <value>A E-mail não pode estar vazio.</value>
+  </data>
+	<data name="PreRegistration.Email.MaximumLenght" xml:space="preserve">
+    <value>O E-mail não pode exceder 200 caracteres.</value>
+  </data>
+	<data name="PreRegistration.Password.CannotEmpty" xml:space="preserve">
+    <value>A senha não pode estar vazia.</value>
+  </data>
+	<data name="PreRegistration.Password.CapitalLetter" xml:space="preserve">
+    <value>A senha deve conter pelo menos uma letra maiúscula.</value>
+  </data>
+	<data name="PreRegistration.Password.LeastOneNumber" xml:space="preserve">
+    <value>A senha deve conter pelo menos um número.</value>
+  </data>
+	<data name="PreRegistration.Password.LowerCaseLetter" xml:space="preserve">
+    <value>A senha deve conter pelo menos uma letra minúscula.</value>
+  </data>
+	<data name="PreRegistration.Password.MinimumLenght" xml:space="preserve">
+    <value>A senha deve conter pelo menos 8 letras, caracteres especiais ou números.</value>
+  </data>
+	<data name="PreRegistration.Password.SpecialChar" xml:space="preserve">
+    <value>A senha deve conter pelo menos um caractere especial.</value>
+  </data>
+	<data name="PreRegistration.Token.LimitTime" xml:space="preserve">
+    <value>Espere pelo menos 1 minuto para enviar estes dados.</value>
+  </data>
+	<data name="PreRegistration.EmailExist" xml:space="preserve">
+    <value>E-mail já cadastrado, deseja realizar o login?</value>
+  </data>
+	<data name="SendMail.UserEmail.CannotEmpty" xml:space="preserve">
+    <value>O email não pode estar vazio.</value>
+  </data>
+	<data name="Specialty.Id.CannotEmpty" xml:space="preserve">
+    <value>Pelo menos uma especialidade é obrigatória.</value>
+  </data>
+	<data name="Specialty.Id.Duplicity" xml:space="preserve">
+    <value>Esta especialidade já foi adicionada.</value>
+  </data>
+	<data name="User.CPF.CannotEmpty" xml:space="preserve">
+    <value>O CPF não pode estar vazio.</value>
+  </data>
+	<data name="User.CPF.MaximumLenght" xml:space="preserve">
+    <value>O CPF não pode ser maior que 14 caracteres. </value>
+  </data>
+	<data name="User.Genre.CannotEmpty" xml:space="preserve">
+    <value>O Gênero não pode estar vazio.</value>
+  </data>
+	<data name="User.Client.IncompleteProfile" xml:space="preserve">
+    <value>Complete seu cadastro para solicitar serviços.</value>
+  </data>
+	<data name="UserType.Id.CannotEmpty" xml:space="preserve">
+    <value>O nome do tipo de usuário não pode estar vazio.</value>
+  </data>
+	<data name="UserType.Name.MaximumLenght" xml:space="preserve">
+    <value>O nome do tipo de usuário não pode ser maior que 200 caracteres.</value>
+  </data>
+	<data name="BlogTheme.Name.CannotEmpty" xml:space="preserve">
+    <value>O nome do tema não pode estar vazio.</value>
+  </data>
+	<data name="BlogTheme.Name.MaximumLenght" xml:space="preserve">
+    <value>O nome do tema não pode ser maior que 200 caracteres.</value>
+  </data>
+	<data name="Client.NickName.CannotEmpty" xml:space="preserve">
+    <value>O Apelido não pode estar vazio.</value>
+  </data>
+	<data name="Client.NickName.MaximumLenght" xml:space="preserve">
+    <value>O Apelido não pode ser maior que 200 caracteres.</value>
+  </data>
+	<data name="Client.ProfilePhoto.MaximumLenght" xml:space="preserve">
+    <value>A foto de perfil não pode exceder 10MB.</value>
+  </data>
+	<data name="Client_HasServicesFutures" xml:space="preserve">
+    <value>Existem servicos futuros que não foram cancelados.</value>
+  </data>
+	<data name="Login.CannotAccess" xml:space="preserve">
+    <value>E-mail ou senha incorretos.</value>
+  </data>
+	<data name="BlogNews.Body.CannotEmpty" xml:space="preserve">
+    <value>O corpo da notícia não pode estar vazio. </value>
+  </data>
+	<data name="BlogNews.Name.CannotEmpty" xml:space="preserve">
+    <value>O nome da notícia não pode estar vazio.</value>
+  </data>
+	<data name="BlogNews.Name.MaximumLenght" xml:space="preserve">
+    <value>O nome da notícia não pode ser maior que 200 caracteres.</value>
+  </data>
+	<data name="BlogNews.Body.MaximumLenght" xml:space="preserve">
+    <value>A descrição do corpo da notícia não pode ser maior que 2.000 caracteres.</value>
+  </data>
+	<data name="Notification.UserId.CannotEmpty" xml:space="preserve">
+    <value>O Id de usuário da notificação não pode estar vazio.</value>
+  </data>
+	<data name="Notification.NotificationTypeId.CannotEmpty" xml:space="preserve">
+    <value>O Id do tipo da notificação não pode estar vazio</value>
+  </data>
+	<data name="Notification.Title.CannotEmpty" xml:space="preserve">
+    <value>O título da notificação não pode estar vazio.</value>
+  </data>
+	<data name="Notification.Title.MaximumLenght" xml:space="preserve">
+    <value>O título da notificação não pode ser maior que 200 caracteres.</value>
+  </data>
+	<data name="EmailAlreadyExist" xml:space="preserve">
+    <value>O e-mail informado já está em uso.</value>
+  </data>
+	<data name="UpdateEmail.NewEmail.CannotEmpty" xml:space="preserve">
+    <value>O E-mail não pode estar vazio.</value>
+  </data>
+	<data name="UpdateEmail.NewEmail.MaximumLenght" xml:space="preserve">
+    <value>O E-mail não pode exceder 200 caracteres.</value>
+  </data>
+	<data name="Service.Service.DontAcceptBudget" xml:space="preserve">
+    <value>O anúncio não aceita orçamentos</value>
+  </data>
+	<data name="Service.ServicePhoto.MaximumLenght" xml:space="preserve">
+    <value>A foto do serviço não pode exceder 10MB.</value>
+  </data>
+	<data name="Service.Text.ClientReceived.Accepted" xml:space="preserve">
+    <value>Fique atento ao dia e hora do serviço. </value>
+  </data>
+	<data name="Service.Title.ClientReceived.Accepted" xml:space="preserve">
+    <value>Serviço aceito</value>
+  </data>
+	<data name="Service.Text.CompanyReceived.Accepted" xml:space="preserve">
+    <value>Fique atento ao dia e hora do serviço. </value>
+  </data>
+	<data name="Service.Title.CompanyReceived.Accepted" xml:space="preserve">
+    <value>Serviço aceito</value>
+  </data>
+	<data name="Service.Title.ClientReceived.Canceled" xml:space="preserve">
+    <value>Serviço cancelado</value>
+  </data>
+	<data name="Service.Title.Canceled" xml:space="preserve">
+    <value>Serviço cancelado</value>
+  </data>
+	<data name="Service.Title.ClientReceived.Rejected" xml:space="preserve">
+    <value>Serviço rejeitado</value>
+  </data>
+	<data name="Service.Text.ClientReceived.Rejected" xml:space="preserve">
+    <value>Serviço rejeitado</value>
+  </data>
+	<data name="Service.Text.CompanyReceived.Created" xml:space="preserve">
+    <value>Verifique os serviços no seu calendário. </value>
+  </data>
+	<data name="Service.Text.CompanyReceived.Canceled" xml:space="preserve">
+    <value>O serviço agendado foi cancelado pelo cliente. Lamentamos pelo transtorno. Caso tenha alguma dúvida ou precise de assistência adicional, entre em contato conosco.</value>
+  </data>
+	<data name="Service.Text.ClientReceived.Canceled" xml:space="preserve">
+    <value>O serviço agendado foi cancelado pela empresa. Lamentamos pelo transtorno. Caso tenha alguma dúvida ou precise de assistência adicional, entre em contato conosco.</value>
+  </data>
+	<data name="Service.Title.CompanyReceived.Created" xml:space="preserve">
+    <value>Serviço solicitado com sucesso!</value>
+  </data>
+	<data name="Service.Title.ClientReceived.Created" xml:space="preserve">
+    <value>Serviço solicitado com sucesso!</value>
+  </data>
+	<data name="Service.Title.ClientReceived.Updated" xml:space="preserve">
+    <value>Dados de serviço atualizados</value>
+  </data>
+	<data name="Service.Title.CompanyReceived.Updated" xml:space="preserve">
+    <value>Dados de serviço atualizados</value>
+  </data>
+	<data name="Service.AlreadyExist" xml:space="preserve">
+    <value>Já existe um serviço nessa data e horário.</value>
+  </data>
+	<data name="Service.AcceptService.Comments.CannotEmpty" xml:space="preserve">
+    <value> É necessário inserir um comentário.</value>
+  </data>
+	<data name="Service.AcceptService.Comments.MaximumLenght" xml:space="preserve">
+    <value>O comentário não pode ter mais de 300 caracteres.</value>
+  </data>
+	<data name="Document.Name.CannotEmpty" xml:space="preserve">
+    <value>O nome do documento não pode estar vazio.</value>
+  </data>
+	<data name="Document.Name.MaximumLenght" xml:space="preserve">
+    <value>O nome do documento não pode ser maior que 200 caracteres.</value>
+  </data>
+	<data name="DoesNotMatch" xml:space="preserve">
+    <value>Os dados passados não correspondem ao registrados. </value>
+  </data>
+	<data name="Login.WrongPassword" xml:space="preserve">
+    <value>Senha incorreta.</value>
+  </data>
+</root>
