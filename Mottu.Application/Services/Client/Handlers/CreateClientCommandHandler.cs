@@ -94,14 +94,14 @@ public class CreateClientCommandHandler : IRequestHandler<CreateClientCommand, C
                 throw new ValidationException(nameof(ClientEntity), request.ClientUser.CNHPhoto, GlobalMessages.ProfilePhoto_MaximumLenght);
 
             var Getphoto = await AmazonS3Service.UploadObject(request.ClientUser.CNHPhoto, _AWS);
-            photo = AmazonS3Service.CreateLink(Getphoto.FileName, _AWS);
+            cnhPhoto = AmazonS3Service.CreateLink(Getphoto.FileName, _AWS);
         }
         else
         {
-            photo = null;
+            cnhPhoto = null;
         }
+        userToCreate.CNHPhoto = cnhPhoto;
         #endregion
-
 
         #region Formating to create Client
         var clientToCreate = new ClientEntity

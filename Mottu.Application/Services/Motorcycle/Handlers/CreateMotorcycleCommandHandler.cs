@@ -34,8 +34,6 @@ public class CreateMotorcycleCommandHandler : IRequestHandler<CreateMotorcycleCo
 
         var insertMoto = await _motorcycleRepository.InsertAsync(newMoto);
 
-        //todo colocar logs no behaviour
-
         return _mapper.Map<MotorcycleDto>(insertMoto);
     }
 }
